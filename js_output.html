@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+<!-- 
+Writing to html element : innerHTML
+Writing to html output : document.write()
+Write into alertbox : window.alert()
+Write into browser console: console.log()
+--> 
+
+<!--Inner Html-->
+<h2>Using Inner Html</h2>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = 5 + 6;
+</script>
+
+<!--documet.write()-->
+<!-- 1. Using this method fter html doc loaded will deleate existing html
+    2. Only use in testing-->
+<h2>Using document.write()</h2>
+<script>document.write(5+6);</script>
+
+<!--using window.alert()-->
+<script>alert('Apple Sauce'+ '\n'+(5+6)+'\n'+'Fuck You');</script>
+
+<!-- Using console.log()-->
+<script>console.log('Debugging with Console')</script>
+
+<!-- JavaScript Print -->
+<button onclick="window.print()">Print this page</button>
+
+</body>
+</html>
